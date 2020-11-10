@@ -169,6 +169,7 @@ void crypto(int key)
 	}
 	SetConsoleTextAttribute(console, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 	cout << endl<<endl;
+	delete[] open_text_answer;
 }
 void decrypt()
 {
@@ -298,4 +299,5 @@ void decrypt()
 	}
 	SetConsoleTextAttribute(console, FOREGROUND_RED | FOREGROUND_GREEN | FOREGROUND_BLUE);
 	cout << endl<<endl;
+	delete[] close_text_answer;
 }
